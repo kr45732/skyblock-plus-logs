@@ -1,0 +1,110 @@
+{
+    "data": [
+        {
+            "user": {
+                "name": "[+] Skyblock Plus",
+                "avatar": "https://cdn.discordapp.com/avatars/796791167366594592/42a2fd166db43333edd7d937406eadd9.png",
+                "isBot": true,
+                "isVerified": true,
+                "color": "#992d22"
+            },
+            "text": "<@385939031596466176>",
+            "timestamp": "12/29/21",
+            "embeds": [
+                {
+                    "title": "CrypticPlasma",
+                    "url": "https://sky.shiiyu.moe/stats/CrypticPlasma",
+                    "description": "Please react with the emoji that corresponds to the profile you want to apply with or react with ? to cancel the application.\n\n? - [Pear](https://sky.shiiyu.moe/stats/CrypticPlasma/pear)\n<:zucchini:828636746358194206> - [Zucchini](https://sky.shiiyu.moe/stats/CrypticPlasma/zucchini)\n<:pomegranate:828632397032456232> - [Pomegranate](https://sky.shiiyu.moe/stats/CrypticPlasma/pomegranate)\n?? - [Last played profile (Zucchini)](https://sky.shiiyu.moe/stats/CrypticPlasma/Zucchini)",
+                    "fields": [],
+                    "footer": "Created by CrypticPlasma"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "[+] Skyblock Plus",
+                "avatar": "https://cdn.discordapp.com/avatars/796791167366594592/42a2fd166db43333edd7d937406eadd9.png",
+                "isBot": true,
+                "isVerified": true,
+                "color": "#992d22"
+            },
+            "text": "",
+            "timestamp": "12/29/21",
+            "embeds": [
+                {
+                    "title": "CrypticPlasma",
+                    "url": "https://sky.shiiyu.moe/stats/CrypticPlasma/Zucchini",
+                    "description": "",
+                    "fields": [
+                        {
+                            "name": "Weight",
+                            "value": "5,264.41",
+                            "inline": true
+                        },
+                        {
+                            "name": "Total slayer",
+                            "value": "2,006,700",
+                            "inline": true
+                        },
+                        {
+                            "name": "Progress skill level",
+                            "value": "42.43",
+                            "inline": true
+                        },
+                        {
+                            "name": "Catacombs level",
+                            "value": "33.62",
+                            "inline": true
+                        },
+                        {
+                            "name": "Bank & purse coins",
+                            "value": "312.4M + 4.1M",
+                            "inline": true
+                        }
+                    ],
+                    "footer": "Created by CrypticPlasma"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "[+] Skyblock Plus",
+                "avatar": "https://cdn.discordapp.com/avatars/796791167366594592/42a2fd166db43333edd7d937406eadd9.png",
+                "isBot": true,
+                "isVerified": true,
+                "color": "#992d22"
+            },
+            "text": "",
+            "timestamp": "12/29/21",
+            "embeds": [
+                {
+                    "title": "Thank you for applying!",
+                    "url": "",
+                    "description": "You will be notified once staff review your application",
+                    "fields": [],
+                    "footer": "Created by CrypticPlasma"
+                }
+            ]
+        },
+        {
+            "user": {
+                "name": "[+] Skyblock Plus",
+                "avatar": "https://cdn.discordapp.com/avatars/796791167366594592/42a2fd166db43333edd7d937406eadd9.png",
+                "isBot": true,
+                "isVerified": true,
+                "color": "#992d22"
+            },
+            "text": "<@385939031596466176>",
+            "timestamp": "12/29/21",
+            "embeds": [
+                {
+                    "title": "Application Accepted",
+                    "url": "",
+                    "description": "accepted",
+                    "fields": [],
+                    "footer": "Created by CrypticPlasma"
+                }
+            ]
+        }
+    ]
+}
