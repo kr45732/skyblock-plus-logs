@@ -8,15 +8,17 @@
                 "isVerified": true,
                 "color": "#992d22"
             },
-            "text": "<@385939031596466176>",
+            "text": "<discord-mention>CrypticPlasma</discord-mention>",
             "timestamp": "12/29/21",
             "embeds": [
                 {
                     "title": "CrypticPlasma",
                     "url": "https://sky.shiiyu.moe/stats/CrypticPlasma",
-                    "description": "Please react with the emoji that corresponds to the profile you want to apply with or react with ? to cancel the application.\n\n? - [Pear](https://sky.shiiyu.moe/stats/CrypticPlasma/pear)\n<:zucchini:828636746358194206> - [Zucchini](https://sky.shiiyu.moe/stats/CrypticPlasma/zucchini)\n<:pomegranate:828632397032456232> - [Pomegranate](https://sky.shiiyu.moe/stats/CrypticPlasma/pomegranate)\n?? - [Last played profile (Zucchini)](https://sky.shiiyu.moe/stats/CrypticPlasma/Zucchini)",
+                    "description": "Please react with the emoji that corresponds to the profile you want to apply with or react with ❌ to cancel the application.\n\n🍐 - <a href=\"https://sky.shiiyu.moe/stats/CrypticPlasma/pear\">Pear</a>\n<img src=\"https://cdn.discordapp.com/emojis/828636746358194206.png?size=16\"/> - <a href=\"https://sky.shiiyu.moe/stats/CrypticPlasma/zucchini\">Zucchini</a>\n<:pomegranate:828632397032456232> - <a href=\"https://sky.shiiyu.moe/stats/CrypticPlasma/pomegranate\">Pomegranate</a>\n↩️ - <a href=\"https://sky.shiiyu.moe/stats/CrypticPlasma/Zucchini\">Last played profile (Zucchini)</a>",
                     "fields": [],
-                    "footer": "Created by CrypticPlasma"
+                    "footer": "Created by CrypticPlasma",
+                    "color": "#df0505",
+                    "timestamp": "12/29/21"
                 }
             ]
         },
@@ -62,7 +64,10 @@
                             "inline": true
                         }
                     ],
-                    "footer": "Created by CrypticPlasma"
+                    "footer": "Created by CrypticPlasma",
+                    "color": "#df0505",
+                    "timestamp": "12/29/21",
+                    "thumbnail": "https://cravatar.eu/helmavatar/044903b7a9d3416d957f929557af6c88/64.png"
                 }
             ]
         },
@@ -82,7 +87,9 @@
                     "url": "",
                     "description": "You will be notified once staff review your application",
                     "fields": [],
-                    "footer": "Created by CrypticPlasma"
+                    "footer": "Created by CrypticPlasma",
+                    "color": "#df0505",
+                    "timestamp": "12/29/21"
                 }
             ]
         },
@@ -94,7 +101,7 @@
                 "isVerified": true,
                 "color": "#992d22"
             },
-            "text": "<@385939031596466176>",
+            "text": "<discord-mention>CrypticPlasma</discord-mention>",
             "timestamp": "12/29/21",
             "embeds": [
                 {
@@ -102,9 +109,23 @@
                     "url": "",
                     "description": "accepted",
                     "fields": [],
-                    "footer": "Created by CrypticPlasma"
+                    "footer": "Created by CrypticPlasma",
+                    "color": "#df0505",
+                    "timestamp": "12/29/21"
                 }
             ]
+        },
+        {
+            "user": {
+                "name": "CrypticPlasma",
+                "avatar": "https://cdn.discordapp.com/avatars/385939031596466176/b0b874bd30e88e70cff08514b16ec7ee.png",
+                "isBot": false,
+                "isVerified": false,
+                "color": "#ad1457"
+            },
+            "text": "Very pog champ 👀",
+            "timestamp": "12/31/21",
+            "embeds": []
         }
     ]
 }

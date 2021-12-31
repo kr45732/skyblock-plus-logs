@@ -1,69 +1,56 @@
 <template>
-  <discord-messages>
-    <discord-message
-      :author="json.user.name"
-      :avatar="json.user.avatar"
-      :roleColor="json.user.avatar"
-      :bot="json.user.isBot"
-      :verified="json.user.isVerified"
+  <discord-message
+    :author="message.user.name"
+    :avatar="message.user.avatar"
+    :bot="message.user.isBot"
+    :verified="message.user.isVerified"
+    :timestamp="message.timestamp"
+    :style="cssVars"
+  >
+    <span v-html="message.text"></span>
+    <discord-embed
+      slot="embeds"
+      v-for="embed in message.embeds"
+      :key="embed"
+      :color="embed.color"
+      :embed-title="embed.title"
+      :timestamp="embed.timestamp"
+      :url="embed.url"
+      :thumbnail="embed.thumbnail"
     >
-      {{ json.text }}
-      <div v-for="embed in json.embeds" :key="embed">
-        <discord-embed
-          slot="embeds"
-          :color="embed.color"
-          :embed-title="embed.title"
-          :timestamp="json.timestamp"
-          :url="embed.url"
+      <span v-html="embed.description"></span>
+      <discord-embed-fields slot="fields">
+        <discord-embed-field
+          v-for="(field, index) in embed.fields"
+          :key="field"
+          :field-title="field.name"
+          :inline="field.inline"
+          :inline-index="(index % 3) + 1"
         >
-          {{ embed.description }}
-          <discord-embed-fields
-            slot="fields"
-            v-for="field in embed.fields"
-            :key="field"
-          >
-            <discord-embed-field :field-title="field.name" inline>
-              {{ field.value }}
-            </discord-embed-field>
-          </discord-embed-fields>
-          <span slot="footer">{{ embed.footer }}</span>
-        </discord-embed>
-      </div>
-    </discord-message>
-  </discord-messages>
+          {{ field.value }}
+        </discord-embed-field>
+      </discord-embed-fields>
+      <span slot="footer">{{ embed.footer }}</span>
+    </discord-embed>
+  </discord-message>
 </template>
 
 <script>
 export default {
   name: "Message",
-  props: ["json"],
+  props: ["message"],
+  computed: {
+    cssVars() {
+      return {
+        "--color": this.message.user.color,
+      };
+    },
+  },
 };
 </script>
 
-<style scoped>
-body {
-  color: #eee;
-  background-color: #2a2a2a;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-  color: #0099ff;
-}
-
-a:hover {
-  color: #037cce;
-}
-
-.logo {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 2em;
-  margin: 0;
-}
-
-.title {
-  border-bottom: 1px solid #4a4a4a;
-  padding-bottom: 0.25em;
+<style>
+.discord-author-username {
+  color: var(--color) !important;
 }
 </style>
