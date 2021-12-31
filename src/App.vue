@@ -3,7 +3,6 @@
 </template>
 <style>
 body {
-  /* color: #eee; */
   background-color: #2a2a2a;
   font-family: Arial, Helvetica, sans-serif;
 }
