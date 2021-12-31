@@ -1,16 +1,6 @@
 <template>
-  <main>
-    <discord-messages>
-      <message
-        class="main"
-        v-for="message in messages"
-        :key="message"
-        :message="message"
-      />
-    </discord-messages>
-  </main>
+  <router-view></router-view>
 </template>
-
 <style>
 body {
   /* color: #eee; */
@@ -20,16 +10,7 @@ body {
 </style>
 
 <script>
-import Message from "./components/Message.vue";
-import * as messages from "./json/data.json";
-
 export default {
-  data() {
-    return {
-      messages: messages.data,
-    };
-  },
-  components: { Message },
   name: "App",
 };
 </script>
