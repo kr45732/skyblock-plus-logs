@@ -1,9 +1,8 @@
 <template>
   <div>
-    <div v-if="loading">Loading...</div>
+    <h1 v-if="!messages">Loading...</h1>
 
     <div v-if="messages">
-      <h1>url: {{ url }}</h1>
       <discord-messages>
         <message
           class="main"
@@ -52,16 +51,25 @@ export default {
     $route: "fetchData",
   },
   methods: {
-    async fetchData() {
+    fetchData() {
       const route = useRoute();
       this.messages = null;
       this.loading = true;
 
-      this.messages = await fetch(route.query.url).then((res) => {
-        console.log(res);
-        return res.json();
+      let $this = this;
+      fetchJson(route.query.url, function printResult(result) {
+        $this.messages = JSON.parse(result).data;
       });
     },
   },
 };
+function fetchJson(url, printResult) {
+  let x = new XMLHttpRequest();
+  x.open("GET", "https://cors-anywhere.herokuapp.com/" + url);
+  x.onload = x.onerror = function () {
+    printResult(x.responseText || "");
+  };
+  x.setRequestHeader("Content-Type", "application/json");
+  x.send();
+}
 </script>
