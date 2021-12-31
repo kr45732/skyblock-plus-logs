@@ -58,14 +58,14 @@ export default {
 
       let $this = this;
       fetchJson(route.query.url, function printResult(result) {
-        $this.messages = JSON.parse(result).data;
+        $this.messages = JSON.parse(JSON.parse(result).contents).data;
       });
     },
   },
 };
 function fetchJson(url, printResult) {
   let x = new XMLHttpRequest();
-  x.open("GET", "https://cors-anywhere.herokuapp.com/" + url);
+  x.open("GET", "https://api.allorigins.win/get?url=" + url);
   x.onload = x.onerror = function () {
     printResult(x.responseText || "");
   };
