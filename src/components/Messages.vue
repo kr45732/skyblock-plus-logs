@@ -58,7 +58,7 @@ export default {
 
       let $this = this;
       fetchJson(route.query.url, function printResult(result) {
-        $this.messages = JSON.parse(JSON.parse(result).contents).data;
+        $this.messages = JSON.parse(JSON.parse(result).contents);
       });
     },
   },
