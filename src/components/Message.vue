@@ -53,4 +53,21 @@ export default {
 .discord-author-username {
   color: var(--color) !important;
 }
+
+.spoiler {
+  color: transparent;
+  background-color: black;
+  transition: background-color 0.25s;
+}
+
+.spoiler:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.code {
+  color: white;
+  background-color: #2f3136;
+  padding: 2px;
+}
 </style>
