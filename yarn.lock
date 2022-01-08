@@ -977,7 +977,7 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@skyra/discord-components-core@2.13.0", "@skyra/discord-components-core@^2.13.0":
+"@skyra/discord-components-core@2.13.0":
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-2.13.0.tgz#7795ccde12cbdf961d5a2f466563ae6a896d56f4"
   integrity sha512-n4i4I5afi0ECqCp1qBiQMoqTyg1OpqfHluku6TlMb90Y0A/qhrPYmaso5XPAbsQ4Xko2SxhhrO3/Xgm14x5wZA==
@@ -986,12 +986,21 @@
     clsx "^1.1.1"
     hex-to-rgba "^2.0.1"
 
-"@skyra/discord-components-react@2.13.0":
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-2.13.0.tgz#96a9c4f063f00cd13fa44bbfaaf87e33fe0421e3"
-  integrity sha512-9qZw/UqiW6E8IMsozTQMRNTF/gW5Aj1RQFG4peDnqRz3PA8urEPdnJ8T3nBjH3SeVG+RwiNLZtvI7l4bwxy8ag==
+"@skyra/discord-components-core@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.0.1.tgz#3c9c419ba9b7df5ba309e57a20222c887d0ef9c6"
+  integrity sha512-c1WOw4CyfpYVcRScfdRuIesvg7NDjJ92RoUJBcbrtTnzqkL9i0RzQBc6s7nfVRnjXMs9nZP3as3cT+Hi3pv2vw==
   dependencies:
-    "@skyra/discord-components-core" "^2.13.0"
+    "@stencil/core" "^2.12.1"
+    clsx "^1.1.1"
+    hex-to-rgba "^2.0.1"
+
+"@skyra/discord-components-react@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-3.0.1.tgz#169f896cbf08c7f7445c5d04c85a1c0d82845e45"
+  integrity sha512-l91SBFACAuIU56G/KIyIoBROxyaDL97SMMIwwMGeKsRrFhVvPegdWIzHmHroEzSHx9gPIIM2f3p7FblYiNgRxQ==
+  dependencies:
+    "@skyra/discord-components-core" "^3.0.1"
     tslib "^2.3.1"
 
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
@@ -1013,6 +1022,11 @@
   version "2.12.0"
   resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.12.0.tgz#5b12517dd367908026692d3b00fa1aab39638ab9"
   integrity sha512-hQlQKh5CUJe8g3L5avLLsfgVu95HMS2LToTtS7gpvvP0eKes1VvAC56uhI+vH4u44GZl9ck/g1rJBVRmMWu0LA==
+
+"@stencil/core@^2.12.1":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.12.1.tgz#92364d3e57337b8d36dd9b70cfbed2833929f22d"
+  integrity sha512-u24TZ+FEvjnZt5ZgIkLjLpUNsO6Ml3mUZqwmqk81w6RWWz75hgB5p4RFI5rvuErFeh2xvMIGo+pNdG24XUBz1A==
 
 "@types/body-parser@*":
   version "1.19.2"
