@@ -14,13 +14,13 @@
       :key="embed"
       :color="embed.color"
       :embed-title="embed.title"
-      :timestamp="embed.timestamp"
       :url="embed.url"
       :thumbnail="embed.thumbnail"
     >
-      <span v-html="embed.description"></span>
-      <discord-embed-fields slot="fields">
+      <discord-embed-description v-html="embed.description" />
+      <discord-embed-fields>
         <discord-embed-field
+          slot="fields"
           v-for="(field, index) in embed.fields"
           :key="field"
           :field-title="field.name"
@@ -30,7 +30,9 @@
           {{ field.value }}
         </discord-embed-field>
       </discord-embed-fields>
-      <span slot="footer">{{ embed.footer }}</span>
+      <discord-embed-footer slot="footer" :timestamp="embed.timestamp">
+        {{ embed.footer }}
+      </discord-embed-footer>
     </discord-embed>
   </discord-message>
 </template>
