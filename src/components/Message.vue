@@ -17,9 +17,13 @@
       :url="embed.url"
       :thumbnail="embed.thumbnail"
     >
-      <span v-html="embed.description"></span>
+      <discord-embed-description
+        slot="description"
+        v-html="embed.description"
+      />
       <discord-embed-fields>
         <discord-embed-field
+          slot="fields"
           v-for="(field, index) in embed.fields"
           :key="field"
           :field-title="field.name"
