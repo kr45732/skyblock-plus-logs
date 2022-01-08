@@ -21,9 +21,8 @@
         slot="description"
         v-html="embed.description"
       />
-      <discord-embed-fields>
+      <discord-embed-fields slot="fields">
         <discord-embed-field
-          slot="fields"
           v-for="(field, index) in embed.fields"
           :key="field"
           :field-title="field.name"
