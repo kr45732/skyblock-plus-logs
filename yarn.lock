@@ -977,7 +977,7 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@skyra/discord-components-core@3.1.0":
+"@skyra/discord-components-core@3.1.0", "@skyra/discord-components-core@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.1.0.tgz#a20a3c1a232ec2ec827e6a99e884a998bb8059fb"
   integrity sha512-l4xmt8DPkcbxaamMKXw1lUnluubTBiiGFxsm10yNP2rC2fKxD/8NdM2kSS/RqLqFmU9oxuU3aPQFPo+qWDfxig==
@@ -986,21 +986,12 @@
     clsx "^1.1.1"
     hex-to-rgba "^2.0.1"
 
-"@skyra/discord-components-core@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.0.1.tgz#3c9c419ba9b7df5ba309e57a20222c887d0ef9c6"
-  integrity sha512-c1WOw4CyfpYVcRScfdRuIesvg7NDjJ92RoUJBcbrtTnzqkL9i0RzQBc6s7nfVRnjXMs9nZP3as3cT+Hi3pv2vw==
+"@skyra/discord-components-react@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-3.1.0.tgz#0ab351b3888430766d92467675fdce1f69c038d8"
+  integrity sha512-or4DaRCd8uBO3e45+aauc8aAJCeUX7+eaqw3TIeDQnwJ5rXt/6XN1KJpLFw0RQSa6hJT6waIM66krvd/KgMYWg==
   dependencies:
-    "@stencil/core" "^2.12.1"
-    clsx "^1.1.1"
-    hex-to-rgba "^2.0.1"
-
-"@skyra/discord-components-react@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-3.0.1.tgz#169f896cbf08c7f7445c5d04c85a1c0d82845e45"
-  integrity sha512-l91SBFACAuIU56G/KIyIoBROxyaDL97SMMIwwMGeKsRrFhVvPegdWIzHmHroEzSHx9gPIIM2f3p7FblYiNgRxQ==
-  dependencies:
-    "@skyra/discord-components-core" "^3.0.1"
+    "@skyra/discord-components-core" "^3.1.0"
     tslib "^2.3.1"
 
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
