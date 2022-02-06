@@ -1,6 +1,6 @@
 import { createApp, h } from 'vue/dist/vue.esm-bundler'
 import App from "./App.vue";
-import Messages from "./components/Messages.vue"
+import DataLoader from "./components/DataLoader.vue"
 import {
   applyPolyfills,
   defineCustomElements
@@ -14,7 +14,7 @@ applyPolyfills().then(() => {
 
 const router = Router.createRouter({
   history: Router.createWebHistory(),
-  routes: [{ path: '/logs', component: Messages },],
+  routes: [{ path: '/logs', component: DataLoader },],
 });
 
 const app = createApp({ render: () => h(App) }).use(router);
