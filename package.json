@@ -10,7 +10,7 @@
   "dependencies": {
     "@skyra/discord-components-core": "3.1.0",
     "@skyra/discord-components-react": "3.1.0",
-    "core-js": "3.21.0",
+    "core-js": "3.21.1",
     "vue": "3.2.31",
     "vue-router": "4.0.12"
   },
