@@ -977,7 +977,7 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@skyra/discord-components-core@3.1.1":
+"@skyra/discord-components-core@3.1.1", "@skyra/discord-components-core@^3.1.1":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.1.1.tgz#4b1b7b6ffe5373b622e71525231796e1a5c38890"
   integrity sha512-C0R5ih2RHDgpXVEjIiyMMDSW2hMuCwkaafqFfXXG///rQQqIyoqLYhhZfVXtNb6eBTWCs98tCENoEcSe6ysPuw==
@@ -986,21 +986,12 @@
     clsx "^1.1.1"
     hex-to-rgba "^2.0.1"
 
-"@skyra/discord-components-core@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.1.0.tgz#a20a3c1a232ec2ec827e6a99e884a998bb8059fb"
-  integrity sha512-l4xmt8DPkcbxaamMKXw1lUnluubTBiiGFxsm10yNP2rC2fKxD/8NdM2kSS/RqLqFmU9oxuU3aPQFPo+qWDfxig==
+"@skyra/discord-components-react@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-3.1.1.tgz#260d7a7f713918da0080952da1ffd9bd7779ec85"
+  integrity sha512-NB8varo3NuhL4eejO7DULaEdc7JexBe+pXv6W8Gm1Xx8cgl4Hfyus74pS97uuYMDx3+2R+Y87vo6kaZ6yzpphw==
   dependencies:
-    "@stencil/core" "^2.12.1"
-    clsx "^1.1.1"
-    hex-to-rgba "^2.0.1"
-
-"@skyra/discord-components-react@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-3.1.0.tgz#0ab351b3888430766d92467675fdce1f69c038d8"
-  integrity sha512-or4DaRCd8uBO3e45+aauc8aAJCeUX7+eaqw3TIeDQnwJ5rXt/6XN1KJpLFw0RQSa6hJT6waIM66krvd/KgMYWg==
-  dependencies:
-    "@skyra/discord-components-core" "^3.1.0"
+    "@skyra/discord-components-core" "^3.1.1"
     tslib "^2.3.1"
 
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
@@ -1017,11 +1008,6 @@
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@soda/get-current-script/-/get-current-script-1.0.2.tgz#a53515db25d8038374381b73af20bb4f2e508d87"
   integrity sha512-T7VNNlYVM1SgQ+VsMYhnDkcGmWhQdL0bDyGm5TlQ3GBXnJscEClUUOKduWTmm2zCnvNLC1hc3JpuXjs/nFOc5w==
-
-"@stencil/core@^2.12.1":
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.12.1.tgz#92364d3e57337b8d36dd9b70cfbed2833929f22d"
-  integrity sha512-u24TZ+FEvjnZt5ZgIkLjLpUNsO6Ml3mUZqwmqk81w6RWWz75hgB5p4RFI5rvuErFeh2xvMIGo+pNdG24XUBz1A==
 
 "@stencil/core@^2.14.1":
   version "2.14.2"
