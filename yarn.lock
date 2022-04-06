@@ -993,16 +993,7 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@skyra/discord-components-core@3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.2.0.tgz#186356cfb4ef998a6867357f11f568190f4323db"
-  integrity sha512-Nt7XZ0YvxYUJsQE2PIWl+l7bGpa/2AveFjCFuywcJgp1AOmFi89SBMCNVRFlF440urP8QEG6EDNjgVUXgvuStA==
-  dependencies:
-    "@stencil/core" "^2.15.0"
-    clsx "^1.1.1"
-    hex-to-rgba "^2.0.1"
-
-"@skyra/discord-components-core@^3.3.0":
+"@skyra/discord-components-core@3.3.0", "@skyra/discord-components-core@^3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.3.0.tgz#dfd9eedd9e207a5dc527fd00c722df2361d3c1a4"
   integrity sha512-2OwM2/iUzmJD5b8opVaa4CIVrcvAQIx/a45ulFwqm/UNcLJpAVvKKlKpaqE5smYlN0K4u4M8DA6VInIe82CnKQ==
