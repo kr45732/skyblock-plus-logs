@@ -11,7 +11,7 @@
     "@skyra/discord-components-core": "3.3.0",
     "@skyra/discord-components-react": "3.3.0",
     "core-js": "3.21.1",
-    "vue": "3.2.31",
+    "vue": "3.2.32",
     "vue-router": "4.0.14"
   },
   "devDependencies": {
