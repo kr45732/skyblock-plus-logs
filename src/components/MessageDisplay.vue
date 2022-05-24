@@ -54,6 +54,7 @@ export default {
 </script>
 
 <style>
+/* eslint-disable vue/no-v-text-v-html-on-component */
 .discord-author-username {
   color: var(--color) !important;
 }
