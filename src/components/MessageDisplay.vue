@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-text-v-html-on-component -->
 <template>
   <discord-message
     :author="message.user.name"
@@ -54,7 +55,6 @@ export default {
 </script>
 
 <style>
-/* eslint-disable vue/no-v-text-v-html-on-component */
 .discord-author-username {
   color: var(--color) !important;
 }
