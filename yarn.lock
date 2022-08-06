@@ -1468,7 +1468,7 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@skyra/discord-components-core@3.4.0", "@skyra/discord-components-core@^3.4.0":
+"@skyra/discord-components-core@3.4.0":
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.4.0.tgz#3ee2b70008c129b4cc4451d320fb3c86964e60cf"
   integrity sha512-n6J30JPHC4mDWUOSDNsZeJimCTepGvVKggpP7oG1teTgGVb8i/JRN9JT6l3pzgLCXk3YMAj5F3BFEgQleXl6PQ==
@@ -1477,12 +1477,21 @@
     clsx "^1.1.1"
     hex-to-rgba "^2.0.1"
 
-"@skyra/discord-components-react@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-3.4.0.tgz#0550cda5ee713be59e516624942c64a4960779a9"
-  integrity sha512-maC1Wnl6kppAu3S4COfIXJGaoBdRPKEijB8wRpyga2T2575AROaks7ObniSoID52ecuhxrhLNK9H2lYGoP+J4Q==
+"@skyra/discord-components-core@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@skyra/discord-components-core/-/discord-components-core-3.4.1.tgz#9e2ce7a2e61f261e0a9d97a72a1c4cf6d615edf4"
+  integrity sha512-+BKH9FyJ7IHPA4mP2TQQhT4I9BA8Iz3YNs3G7adZcgPn/Jcfn14/OJiE+Uj9Rw3Q9DeeCHQcSM4dRj8KJA8wFw==
   dependencies:
-    "@skyra/discord-components-core" "^3.4.0"
+    "@stencil/core" "^2.17.3"
+    clsx "^1.2.1"
+    hex-to-rgba "^2.0.1"
+
+"@skyra/discord-components-react@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@skyra/discord-components-react/-/discord-components-react-3.4.1.tgz#26ad68f2cde78cdd15c4e1ee042ad1d83932d9e7"
+  integrity sha512-ttc9Qw0y7lXOFpRs3mWvC0Uj3aNw1uCYefWTYg3ohlq6UEg96dB32IFzoC3KH4RSKNW3DYkIm+TlcVCdSGtT5g==
+  dependencies:
+    "@skyra/discord-components-core" "^3.4.1"
     tslib "^2.4.0"
 
 "@soda/friendly-errors-webpack-plugin@^1.8.0":
@@ -1504,6 +1513,11 @@
   version "2.15.2"
   resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.15.2.tgz#73a18050714a9edc488e6a2ea3380f5a91a04690"
   integrity sha512-D6dv2KAXlWt9mjC28q0s6anghQgXRn0k93suOf+4pqsv1Uq19zNJXpYL68N5GxMSiNZyMPTU4Tt2NCbut7DVGg==
+
+"@stencil/core@^2.17.3":
+  version "2.17.3"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.17.3.tgz#b86cb76eb57231ce1f04014c2a51d1690c64325d"
+  integrity sha512-qw2DZzOpyaltLLEfYRTj3n+XbvRtkmv4QQimYDJubC6jMY0NXK9r6H2+VyszdbbVmvK1D9GqZtyvY0NmOrztsg==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -2712,6 +2726,11 @@ clsx@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
   integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
+
+clsx@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
 color-convert@^1.9.0:
   version "1.9.3"
